@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "753025040633",
+    "firebase_url": "https://e-attendance-4bd5e-default-rtdb.firebaseio.com",
+    "project_id": "e-attendance-4bd5e",
+    "storage_bucket": "e-attendance-4bd5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753025040633:android:121e0fccff30fb9356a228",
+        "android_client_info": {
+          "package_name": "com.example.e_attendece_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753025040633-qe2a9oi0q8ckdsskibd86698mliqbvcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBESU-oEmRU832TIsztkXPBsIr3yhzaXLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753025040633-qe2a9oi0q8ckdsskibd86698mliqbvcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

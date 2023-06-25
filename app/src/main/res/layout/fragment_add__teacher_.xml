@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F4F3">
+
+    <TextView
+        android:id="@+id/Faculty_textview"
+        android:layout_width="230dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="cursive"
+        android:text="Add New Teachers"
+        android:textAlignment="center"
+        android:textColor="#42475C"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Faculty_textview"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Faculty_textview"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_textview" />
+
+    <EditText
+        android:id="@+id/Faculty_Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Name"
+       android:background="@drawable/edit_text2"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName"
+        android:textColorHint="#42475C"
+        android:textColor="#42475C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_textview" />
+
+    <EditText
+        android:id="@+id/Faculty_Email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:background="@drawable/edit_text2"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="#42475C"
+        android:textColor="#42475C"
+        app:layout_constraintEnd_toEndOf="@+id/Faculty_Name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Faculty_Name"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_Name" />
+
+    <EditText
+        android:id="@+id/Faculty_Password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:background="@drawable/edit_text2"
+        android:drawablePadding="15dp"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColorHint="#42475C"
+        android:textColor="#42475C"
+        app:layout_constraintEnd_toEndOf="@+id/Faculty_Email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Faculty_Email"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_Email" />
+
+    <EditText
+        android:id="@+id/Faculty_Id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Id"
+        android:background="@drawable/edit_text2"
+        android:drawablePadding="15dp"
+        android:inputType="textPersonName"
+        android:textColorHint="#42475C"
+        android:textColor="#42475C"
+        app:layout_constraintEnd_toEndOf="@+id/Faculty_Password"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Faculty_Password"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_Password" />
+
+    <EditText
+        android:id="@+id/Faculty_Subject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Subject"
+        android:drawablePadding="15dp"
+        android:background="@drawable/edit_text2"
+        android:textColorHint="#42475C"
+        android:textColor="#42475C"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/Faculty_Id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Faculty_Id"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_Id" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Faculty_Save"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/login_button_bk2"
+
+        android:text="save"
+        app:layout_constraintEnd_toEndOf="@+id/Faculty_Subject"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Faculty_Subject"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_Subject" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Faculty_Cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_button_bk2"
+        android:text="cancle"
+        app:layout_constraintEnd_toEndOf="@+id/Faculty_Save"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Faculty_Save"
+        app:layout_constraintTop_toBottomOf="@+id/Faculty_Save" />
+</androidx.constraintlayout.widget.ConstraintLayout>
